@@ -6,102 +6,114 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1228</width>
-    <height>588</height>
+    <width>852</width>
+    <height>487</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="">
+   <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
-      <x>271</x>
-      <y>68</y>
-      <width>771</width>
-      <height>421</height>
+      <x>170</x>
+      <y>140</y>
+      <width>256</width>
+      <height>201</height>
      </rect>
     </property>
-    <layout class="QGridLayout" name="gridLayout">
-     <item row="0" column="0">
-      <layout class="QVBoxLayout" name="verticalLayout_2">
-       <item>
-        <widget class="QTableWidget" name="tableWidget"/>
-       </item>
-       <item>
-        <widget class="QTabWidget" name="tabWidget">
-         <property name="currentIndex">
-          <number>0</number>
-         </property>
-         <widget class="QWidget" name="tab_3">
-          <attribute name="title">
-           <string>Tab 1</string>
-          </attribute>
-         </widget>
-         <widget class="QWidget" name="tab_4">
-          <attribute name="title">
-           <string>Tab 2</string>
-          </attribute>
-         </widget>
-        </widget>
-       </item>
-      </layout>
-     </item>
-     <item row="0" column="1">
-      <layout class="QVBoxLayout" name="verticalLayout">
-       <item>
-        <widget class="QPushButton" name="pushButton_InfoList">
-         <property name="text">
-          <string>信息列表</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="pushButton_AddData">
-         <property name="text">
-          <string>增加数据</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="pushButton_deleteData">
-         <property name="text">
-          <string>删除数据</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="pushButton_updateData">
-         <property name="text">
-          <string>修改数据</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="pushButton_selectData">
-         <property name="text">
-          <string>查询数据</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="pushButton_Commit">
-         <property name="text">
-          <string>提交数据</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="pushButton_ImportData">
-         <property name="text">
-          <string>导入数据</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </item>
-    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton_InfoList">
+    <property name="geometry">
+     <rect>
+      <x>511</x>
+      <y>141</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>信息列表</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_ImportData">
+    <property name="geometry">
+     <rect>
+      <x>511</x>
+      <y>315</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>导入数据</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Commit">
+    <property name="geometry">
+     <rect>
+      <x>511</x>
+      <y>286</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>提交数据</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_AddData">
+    <property name="geometry">
+     <rect>
+      <x>511</x>
+      <y>170</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>增加数据</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_updateData">
+    <property name="geometry">
+     <rect>
+      <x>511</x>
+      <y>228</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>修改数据</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_selectData">
+    <property name="geometry">
+     <rect>
+      <x>511</x>
+      <y>257</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>查询数据</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_deleteData">
+    <property name="geometry">
+     <rect>
+      <x>511</x>
+      <y>199</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>删除数据</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -109,7 +121,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1228</width>
+     <width>852</width>
      <height>21</height>
     </rect>
    </property>
