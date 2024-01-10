@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Image/Connectable_quan.png</file>
+        <file>Image/Connectable_yuan2.png</file>
+        <file>Image/frame.png</file>
+        <file>Image/Input_yuan.png</file>
+        <file>Image/Output_yuan.png</file>
+        <file>Image/Preview.png</file>
+        <file>Image/Preview_click.png</file>
+        <file>Image/Set.png</file>
+        <file>Image/Set_click.png</file>
+    </qresource>
+    <qresource prefix="/qss"/>
+</RCC>
