@@ -9,7 +9,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->tableWidget->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
     ui->tableWidget->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
 
-
+    //Ôö¼Ó×¢ÊÍ
 }
 
 MainWindow::~MainWindow()
