@@ -1,4 +1,4 @@
-QT       += core gui sql
+QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -10,15 +10,16 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp \
-    test.cpp
+    mainwindow.cpp
 
 HEADERS += mainwindow.h
 
 FORMS += \
     mainwindow.ui
 
-INCLUDEPATH+=D:\tablewidget\tableWidget\LibSqlite3\include
+INCLUDEPATH+=  \
+             $$PWD/LibSqlite3/include/  \
+
 
 
 
@@ -29,7 +30,9 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 
 
-win32: LIBS += -L$$PWD/LibSqlite3/lib/debug/ -lsqlite3
+win32:CONFIG(release, debug|release): LIBS += -L$$PWD/LibSqlite3/lib/Release/ -lsqlite3
+else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/LibSqlite3/lib/Debug/ -lsqlite3
+else:unix: LIBS += -L$$PWD/LibSqlite3/lib/ -lsqlite3
 
-INCLUDEPATH += $$PWD/''
-DEPENDPATH += $$PWD/''
+INCLUDEPATH += $$PWD/LibSqlite3/lib/debug
+DEPENDPATH += $$PWD/LibSqlite3/lib/debug
